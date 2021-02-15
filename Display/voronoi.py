@@ -15,7 +15,5 @@ points = np.array([[0, 3],
                    [4, 5],
                    [4, 3]])
 vor = Voronoi(points)
-
-
 fig = voronoi_plot_2d(vor)
-plt.show()
+plt.show(fig)
